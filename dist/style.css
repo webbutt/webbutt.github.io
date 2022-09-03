@@ -1,0 +1,19 @@
+*, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+.row {
+  display: flex;
+}
+.row-jc-sb {
+  justify-content: space-between;
+}
+.row-ai-c {
+  align-items: center;
+}/*# sourceMappingURL=style.css.map */
