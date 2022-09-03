@@ -10,3 +10,18 @@
     top: 50%;
     left: 42%;
 }
+
+@media screen and (max-device-width: 480px)
+and (orientation: portrait) {
+    .container {
+        height: 90%;
+    }
+
+    .container h1 {
+        font-size: 24px;
+        display: block;
+        position: fixed;
+        top: 50%;
+        left: 30%;
+    }
+}
