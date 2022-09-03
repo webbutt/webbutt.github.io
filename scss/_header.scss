@@ -13,6 +13,16 @@ header li {
     font-weight: 500;
 }
 
+nav a:hover {
+    color: black;
+    border-bottom: solid 1.5px black;
+}
+
+.active-nav {
+    border-bottom: 1.5px solid rgb(54,63,68);
+    color: black;
+}
+ 
 .logo {
     max-width: 50px;
 }
