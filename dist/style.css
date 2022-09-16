@@ -199,12 +199,13 @@ nav a:hover {
     background-image: linear-gradient(rgb(202, 228, 253), transparent);
   }
   .mobile-menu {
+    border-radius: 5px;
     display: block;
     opacity: 0;
     position: fixed;
     top: 12%;
     width: 90%;
-    background: white;
+    background: aliceblue;
     padding: 20px;
   }
   .mobile-menu > a {
